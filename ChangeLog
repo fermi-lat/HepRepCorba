@@ -1,5 +1,17 @@
 ------------------------------------------------------------
 User: riccardo  Mon Jan 24 01:15:09 PST 2005
+HepRepCorba/src
+
+Modified Files:
+	CorbaServer.cxx 
+Log Message:
+Added support to let GLEAM start automatically FRED and connect to the Corba server run by HepRepCorba. Need to be
+tested on Linux
+
+
+    *
+------------------------------------------------------------
+User: riccardo  Mon Jan 24 01:15:09 PST 2005
 HepRepCorba/cmt
 
 Modified Files:
