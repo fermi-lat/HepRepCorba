@@ -1,0 +1,21 @@
+#ifndef HepEventServer_idl
+#define HepEventServer_idl
+
+//
+// Author: Joseph Perl
+//
+// $Id: HepEventServer.idl,v 1.1 2001/06/29 19:37:39 perl Exp $
+//
+
+#include "HepRep.idl"
+
+interface HepEventServer {
+    string attach(in string clientDesc);
+    oneway void release();
+    string setEvent(in string eventID);
+    long getNumberOfEvents();
+    string getEventTitle();
+    HepRep getEventData(in string dataFormat);
+};
+
+#endif
