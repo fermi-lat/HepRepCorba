@@ -15,13 +15,13 @@
 *  @brief Registe
 *  
 *   @author Riccardo Giannitrapani
-*   $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/RegisterSource.cxx,v 1.3 2003/03/15 22:12:28 burnett Exp $
+*   $Header: /nfs/slac/g/glast/ground/cvs/HepRepCorba/src/RegisterCorba.cxx,v 1.1.1.1 2003/07/07 09:01:01 riccardo Exp $
 */
 class RegisterCorba : public AlgTool, virtual public IRegister{
 public:
 
     RegisterCorba( const std::string& type, 
-		   const std::string& name, const IInterface* parent);
+       const std::string& name, const IInterface* parent);
     virtual ~RegisterCorba() { }
 
     /// implement to define sources: will be called from FluxSvc
@@ -36,8 +36,8 @@ const IToolFactory& RegisterCorbaFactory = s_factory;
 
 // Standard Constructor
 RegisterCorba::RegisterCorba(const std::string& type, 
-			     const std::string& name, 
-			     const IInterface* parent)
+           const std::string& name, 
+           const IInterface* parent)
   : AlgTool( type, name, parent ) 
 {
   
