@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: riccardo  Wed Sep 22 09:44:25 PDT 2004
+HepRepCorba/src
+
+Modified Files:
+	CorbaBuilder.cxx HepEventServer_impl.cxx HepRep_impl.cxx 
+	HepRep_impl.hh 
+Log Message:
+Continued the migration to the right CORBA interface; worked on more GLAST specific command accepted by the server
+
+    *
+------------------------------------------------------------
 User: riccardo  Thu Sep 16 16:42:23 PDT 2004
 HepRepCorba/src
 
