@@ -1,0 +1,47 @@
+------------------------------------------------------------
+User: riccardo  Mon Jul  7 02:01:01 PDT 2003
+HepRepCorba
+
+Log Message:
+First import of the package; the HepRepCorba implement a Corba server for the HepRepSvc. It can be
+loaded runtime to provide connection and event display control to an external HepRep client.
+
+Status:
+
+Vendor Tag:	GLAST
+Release Tags:	v0r1
+		
+N HepRepCorba/cmt/NMake
+N HepRepCorba/cmt/cleanup.bat
+N HepRepCorba/cmt/requirements
+N HepRepCorba/cmt/setup.bat
+N HepRepCorba/src/HepRepS.i
+N HepRepCorba/src/CorbaBuilder.cxx
+N HepRepCorba/src/CorbaBuilder.h
+N HepRepCorba/src/HepEventServer.idl
+N HepRepCorba/src/HepEventServerC.cpp
+N HepRepCorba/src/HepEventServerC.h
+N HepRepCorba/src/HepEventServerC.i
+N HepRepCorba/src/HepEventServerS.cpp
+N HepRepCorba/src/HepEventServerS.h
+N HepRepCorba/src/HepEventServerS.i
+N HepRepCorba/src/HepRep.idl
+N HepRepCorba/src/HepRepC.cpp
+N HepRepCorba/src/HepRepC.h
+N HepRepCorba/src/HepRepC.i
+N HepRepCorba/src/HepRepS.cpp
+N HepRepCorba/src/HepRepS.h
+N HepRepCorba/src/CorbaServer.h
+N HepRepCorba/src/CorbaServer.cxx
+N HepRepCorba/src/HepEventServer_impl.h
+N HepRepCorba/src/HepRep_impl.hh
+N HepRepCorba/src/HepRep_impl.cxx
+N HepRepCorba/src/RegisterCorba.cxx
+N HepRepCorba/src/HepRepCorba_load.cxx
+N HepRepCorba/src/HepEventServer_impl.cxx
+N HepRepCorba/src/mainpage.h
+N HepRepCorba/doc/release.notes
+
+No conflicts created by this import
+
+    *
