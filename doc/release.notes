@@ -1,5 +1,6 @@
-//$Header: /nfs/slac/g/glast/ground/cvs/HepRepCorba/doc/release.notes,v 1.1.1.1 2003/07/07 09:01:01 riccardo Exp $
+//$Header: /nfs/slac/g/glast/ground/cvs/HepRepCorba/doc/release.notes,v 1.2 2003/07/17 23:10:16 riccardo Exp $
 /*
  * v0r1     07-07-03 RG Inital release of the package
  * v0r2     17-07-03 RG Preparing for Latest release
+ * v0r5     02-04-04 RG Last release with ACETAO
 */
