@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: riccardo  Mon May  3 01:06:56 PDT 2004
+HepRepCorba/src
+
+Added Files:
+	HepRepSK.cxx HepRep.hh HepEventServerSK.cxx HepEventServer.hh 
+Log Message:
+Switch to OmniOrb for Corba support
+    *
+------------------------------------------------------------
 User: riccardo  Mon May  3 01:06:37 PDT 2004
 HepRepCorba/src
 
