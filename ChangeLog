@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: riccardo  Tue Jan 11 02:14:31 PST 2005
+HepRepCorba/src
+
+Modified Files:
+	HepEventServer_impl.cxx HepRep_impl.cxx 
+Log Message:
+Added preliminary support for a "back" functionality in FRED; preparing for new tag
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r1, operation: add
 Package: HepRepCorba
