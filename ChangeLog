@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: riccardo  Tue May 25 09:29:53 PDT 2004
+HepRepCorba/src
+
+Modified Files:
+	HepEventServer_impl.cxx 
+Log Message:
+Corrected a typo in the HepEventServer_impl class
+
+
+    *
+------------------------------------------------------------
 User: riccardo  Tue May 25 07:34:12 PDT 2004
 HepRepCorba/src
 
