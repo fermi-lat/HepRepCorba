@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: riccardo  Thu Jul  8 06:02:17 PDT 2004
+HepRepCorba/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Small changes in requirements file for the new external OmniOrb library in IExternal
+
+    *
+------------------------------------------------------------
 User: riccardo  Fri Jun  4 04:31:19 PDT 2004
 HepRepCorba/doc
 
