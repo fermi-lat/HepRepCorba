@@ -1,4 +1,18 @@
 ------------------------------------------------------------
+User: riccardo  Thu Sep 16 16:42:23 PDT 2004
+HepRepCorba/src
+
+Modified Files:
+	HepEventServer.hh HepEventServer.idl HepEventServerSK.cxx 
+	HepEventServer_impl.cxx HepEventServer_impl.h HepRep.hh 
+Added Files:
+	HepRepDynSK.cxx 
+Log Message:
+Started the work to let Glast CORBA server and WIRED works together. Starting to use the CORBA::Any as the object
+returned from the server.
+
+    *
+------------------------------------------------------------
 User: riccardo  Tue Jul 20 08:12:22 PDT 2004
 HepRepCorba/doc
 
