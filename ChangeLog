@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: riccardo  Mon May  3 01:06:37 PDT 2004
+HepRepCorba/src
+
+Removed Files:
+	HepRepS.i HepRepS.h HepRepS.cpp HepRepC.i HepRepC.h 
+	HepRepC.cpp HepEventServerS.i HepEventServerS.h 
+	HepEventServerS.cpp HepEventServerC.i HepEventServerC.h 
+	HepEventServerC.cpp 
+Log Message:
+Switch to OmniOrb for Corba support
+    *
+------------------------------------------------------------
 User: riccardo  Mon May  3 01:04:00 PDT 2004
 HepRepCorba/src
 
