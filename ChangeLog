@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: riccardo  Mon Jul 19 00:26:49 PDT 2004
+HepRepCorba/src
+
+Modified Files:
+	HepEventServer_impl.cxx 
+Log Message:
+New server messages back to the client to deal with some requests errors.
+
+    *
+------------------------------------------------------------
 User: riccardo  Wed Jul 14 02:41:50 PDT 2004
 HepRepCorba/src
 
