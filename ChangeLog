@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 User: riccardo  Mon May  3 01:04:00 PDT 2004
+HepRepCorba/src
+
+Modified Files:
+	CorbaBuilder.cxx CorbaBuilder.h CorbaServer.cxx 
+	HepEventServer_impl.cxx HepEventServer_impl.h HepRep_impl.cxx 
+	HepRep_impl.hh 
+Log Message:
+Switch to OmniOrb for Corba support
+    *
+------------------------------------------------------------
+User: riccardo  Mon May  3 01:04:00 PDT 2004
 HepRepCorba/cmt
 
 Modified Files:
