@@ -1,4 +1,19 @@
 ------------------------------------------------------------
+User: riccardo  Thu May 20 01:21:36 PDT 2004
+HepRepCorba/src
+
+Modified Files:
+	CorbaBuilder.cxx CorbaServer.cxx HepEventServer_impl.cxx 
+	HepRep_impl.cxx 
+Log Message:
+Correct some small bugs; added support for transmission of sources and for client to choose a particular
+source; changed the bootstrap during Corba connection startup so that now a client is not forced to load
+the full HepRep at each event, but only the parts that are really changed (so we have now buffering of the geometry)..
+this is not yet perfect, need to work more on this .. corrected a bug that prevent the server from transmitting too
+big event (set a limit by hand, but I need to change this in a more proper way).
+
+    *
+------------------------------------------------------------
 User: mcenery  Wed May 19 07:26:09 PDT 2004
 HepRepCorba/src
 
