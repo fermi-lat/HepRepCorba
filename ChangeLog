@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: riccardo  Mon May  3 01:04:00 PDT 2004
+HepRepCorba/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Switch to OmniOrb for Corba support
+    *
+------------------------------------------------------------
 User: riccardo  Mon May  3 00:19:36 PDT 2004
 HepRepCorba/doc
 
