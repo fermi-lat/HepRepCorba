@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: riccardo  Wed Jul 14 02:41:50 PDT 2004
+HepRepCorba/src
+
+Modified Files:
+	HepEventServer_impl.cxx 
+Log Message:
+New stuff for random access to Root files; moreover now HepRepCorba search the OmniOrb wrapper package in IExternal.
+The service now return, after connection, a list of available commands to the client.
+
+    *
+------------------------------------------------------------
 User: riccardo  Thu Jul  8 06:02:17 PDT 2004
 HepRepCorba/cmt
 
