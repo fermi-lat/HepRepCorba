@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: riccardo  Fri Mar 18 00:43:41 PST 2005
+HepRepCorba/src
+
+Modified Files:
+	CorbaServer.cxx 
+Log Message:
+Fixed a bug in the CorbaService that prevent automatic start of FRED on Linux
+
+
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r4, operation: add
 Package: HepRepCorba
