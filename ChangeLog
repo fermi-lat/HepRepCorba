@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: riccardo  Mon May 31 08:14:28 PDT 2004
+HepRepCorba/src
+
+Modified Files:
+	CorbaServer.cxx CorbaServer.h HepEventServer_impl.cxx 
+	HepEventServer_impl.h HepRep_impl.cxx 
+Log Message:
+Added shutdown of Gleam from the remote client; fixed a bug that crashes FRED during logout.
+
+
+    *
+------------------------------------------------------------
 User: riccardo  Tue May 25 09:29:53 PDT 2004
 HepRepCorba/src
 
