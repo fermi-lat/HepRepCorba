@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: riccardo  Tue Mar  8 06:00:11 PST 2005
+HepRepCorba/src
+
+Modified Files:
+	CorbaServer.cxx 
+Log Message:
+The CORBA server now try to start FRED automatically if the HepRepSvc fredStart parameter is set
+in the jobOptions to a valid FRED installation.
+
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r3, operation: add
 Package: HepRepCorba
