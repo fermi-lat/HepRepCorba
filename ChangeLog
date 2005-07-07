@@ -1,5 +1,17 @@
 ------------------------------------------------------------
 User: riccardo  Thu Jul  7 01:14:40 PDT 2005
+HepRepCorba/src
+
+Modified Files:
+	CorbaServer.cxx 
+Log Message:
+Moved the CORBA max msg size to an env variable that can be set in the HepRepCorba requirements file .. this allow the user to change that value without
+the need of recompiling the package .. this seems necessary to let HepRepCorba work properly on some platform/compiler combination
+
+
+    *
+------------------------------------------------------------
+User: riccardo  Thu Jul  7 01:14:40 PDT 2005
 HepRepCorba/cmt
 
 Modified Files:
