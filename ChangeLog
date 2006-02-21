@@ -1,4 +1,35 @@
 ------------------------------------------------------------
+TAG
+Tag name: v1r6dc3, operation: add
+Package: HepRepCorba
+User: riccardo  Tue Feb 21 13:42:27 2006
+Files:
+  HepRepCorba/ChangeLog  1.62
+  HepRepCorba/cmt/NMake  1.1.1.1
+  HepRepCorba/cmt/requirements  1.19.2.1
+  HepRepCorba/doc/release.notes  1.14
+  HepRepCorba/src/HepRep.hh  1.2
+  HepRepCorba/src/CorbaServer.h  1.2
+  HepRepCorba/src/mainpage.h  1.1.1.1
+  HepRepCorba/src/HepEventServer_impl.h  1.5
+  HepRepCorba/src/CorbaBuilder.h  1.2
+  HepRepCorba/src/HepRepCorba_load.cxx  1.2
+  HepRepCorba/src/HepEventServer.hh  1.2
+  HepRepCorba/src/CorbaBuilder.cxx  1.6
+  HepRepCorba/src/CorbaServer.cxx  1.12.2.1
+  HepRepCorba/src/HepEventServer_impl.cxx  1.13.2.2
+  HepRepCorba/src/HepRepSK.cxx  1.1
+  HepRepCorba/src/HepRep_impl.cxx  1.7
+  HepRepCorba/src/HepEventServer.idl  1.2
+  HepRepCorba/src/HepRep.idl  1.1.1.1
+  HepRepCorba/src/HepRepCorba_dll.cxx  1.1
+  HepRepCorba/src/HepRepDynSK.cxx  1.1
+  HepRepCorba/src/HepRep_impl.hh  1.4
+  HepRepCorba/src/HepEventServerSK.cxx  1.2
+  HepRepCorba/src/RegisterCorba.cxx  1.2
+
+    *
+------------------------------------------------------------
 User: riccardo  Tue Feb 21 13:42:17 PST 2006
 HepRepCorba/cmt
 
