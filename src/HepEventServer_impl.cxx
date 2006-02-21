@@ -150,12 +150,12 @@ char* HepEventServer_impl::setEvent(const char* command)
     std::string digi;
     std::string recon;
 
-    int i = temp.find(":");
+    int i = temp.find(";");
     if(i >=0 )
     {
       mc=temp.substr(0,i);
       temp2 = temp.substr(i+1,temp.size());
-      i = temp2.find(":");
+      i = temp2.find(";");
       digi=temp2.substr(0,i);
       recon = temp2.substr(i+1,temp2.size());
     }  
