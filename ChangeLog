@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: riccardo  Tue Feb 21 09:12:47 PST 2006
+HepRepCorba/src
+
+Modified Files:
+      Tag: DC2
+	HepEventServer_impl.cxx 
+Log Message:
+Changed the separator of root files in the openfile command from colon to semicolon to allow the use of the command also on windows.
+
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r6dc0, operation: add
 Package: HepRepCorba
