@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Fri Feb 24 00:35:56 PST 2006
+HepRepCorba/src
+
+Modified Files:
+      Tag: DC2
+	HepEventServer_impl.cxx 
+Log Message:
+add an error message if no semicolons found in set file command
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r6dc3, operation: add
 Package: HepRepCorba
