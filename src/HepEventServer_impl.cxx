@@ -158,7 +158,9 @@ char* HepEventServer_impl::setEvent(const char* command)
       i = temp2.find(";");
       digi=temp2.substr(0,i);
       recon = temp2.substr(i+1,temp2.size());
-    }  
+    } 
+    else 
+      nextEventMsg = "error:Incorrect command format";      
 
     if (m_svcAdapter->openFile(mc.c_str(), digi.c_str(), recon.c_str()))
       nextEventMsg = "ok:Set ROOT files";
