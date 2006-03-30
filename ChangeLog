@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Mar 30 13:04:58 PST 2006
+HepRepCorba/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+merge changes from DC2 branch
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r6dc4, operation: add
 Package: HepRepCorba
