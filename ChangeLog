@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: claval  Fri Nov 10 05:54:04 PST 2006
+HepRepCorba/src
+
+Modified Files:
+	HepEventServer_impl.cxx 
+Log Message:
+
+
+gcrSelect.root file added
+
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r7, operation: add
 Package: HepRepCorba
