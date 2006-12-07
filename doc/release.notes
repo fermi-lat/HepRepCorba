@@ -1,4 +1,4 @@
-//$Header: /nfs/slac/g/glast/ground/cvs/HepRepCorba/doc/release.notes,v 1.15 2006/02/21 19:54:07 riccardo Exp $
+//$Header: /nfs/slac/g/glast/ground/cvs/HepRepCorba/doc/release.notes,v 1.16 2006/03/30 21:05:49 heather Exp $
 /*
  * v0r1     07-07-03 RG Inital release of the package
  * v0r2     17-07-03 RG Preparing for Latest release
@@ -16,4 +16,5 @@
  * v1r6     07-07-05 RG Set some env variables in the requirements file to fix Linux problems
  * v1r6dc2  21-02-06 RG A tag for the DC2 branch with changes for wired
  * v1r7     27-03-06 HMK Merge DC2 branch - prepare for tag
+ * v1r8     07-12-06 CL  Modifications to handle new gcr ROOT file
 */
