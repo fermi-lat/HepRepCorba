@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Mon Jul 14 21:53:37 PDT 2008
+HepRepCorba/src
+
+Modified Files:
+	HepEventServerSK.cxx HepEventServer.hh HepRepDynSK.cxx 
+	HepRep.hh HepRepSK.cxx 
+Log Message:
+new files for Omniorb 4.1.0
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r8, operation: add
 Package: HepRepCorba
