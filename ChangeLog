@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 User: heather  Thu Oct 16 10:49:07 PDT 2008
+HepRepCorba/src
+
+Modified Files:
+	HepEventServerSK.cxx HepRepDynSK.cxx HepRepSK.cxx 
+Removed Files:
+	HepEventServerSK.cc HepRepDynSK.cc HepRepSK.cc 
+Log Message:
+preparing for new OmniOrb
+    *
+------------------------------------------------------------
+User: heather  Thu Oct 16 10:49:07 PDT 2008
 HepRepCorba/doc
 
 Modified Files:
