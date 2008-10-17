@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+TAG
+Tag name: v3r0, operation: mov
+Package: HepRepCorba
+User: glastrm  Thu Oct 16 21:30:24 2008
+Files:
+  HepRepCorba/SConscript  1.2
+
+    *
+------------------------------------------------------------
 User: glastrm  Thu Oct 16 21:30:18 PDT 2008
 HepRepCorba
 
