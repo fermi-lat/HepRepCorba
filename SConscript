@@ -1,7 +1,7 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/HepRepCorba/SConscript,v 1.1 2008/08/15 21:22:42 ecephas Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/HepRepCorba/SConscript,v 1.2 2008/10/17 04:30:18 glastrm Exp $
 # Authors: Riccardo Giannitrapani <riccardo@fisica.uniud.it>
-# Version: HepRepCorba-03-00-00
+# Version: HepRepCorba-02-00-00
 Import('baseEnv')
 Import('listFiles')
 Import('packages')
@@ -15,3 +15,6 @@ HepRepCorba = libEnv.SharedLibrary('HepRepCorba', listFiles(['src/*.cxx','src/*.
 progEnv.Tool('HepRepCorbaLib')
 
 progEnv.Tool('registerObjects', package = 'HepRepCorba', libraries = [HepRepCorba], includes = listFiles(['HepRepCorba/*.h']))
+
+
+
