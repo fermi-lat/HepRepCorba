@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: ecephas  Mon Dec  8 13:39:58 PST 2008
+GlastRelease-scons/HepRepCorba
+
+Modified Files:
+	SConscript 
+Log Message:
+Check in SConscript for HepRepCorba v2r0 (for branch-tag, GlastReleasev15r49) 
+    *
+------------------------------------------------------------
 TAG
 Tag name: HepRepCorba-03-00-00, operation: add
 Package: HepRepCorba
