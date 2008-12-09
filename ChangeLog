@@ -2,6 +2,16 @@
 TAG
 Tag name: HepRepCorba-02-00-00, operation: add
 Package: HepRepCorba
+User: ecephas  Mon Dec  8 16:08:34 2008
+Files:
+  HepRepCorba/HepRepCorbaLib.py  1.2
+  HepRepCorba/HepRepCorbaLib.py  1.2
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: HepRepCorba-02-00-00, operation: add
+Package: HepRepCorba
 User: ecephas  Mon Dec  8 13:40:04 2008
 Files:
   HepRepCorba/SConscript  1.3
