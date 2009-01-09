@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-15-49-00, operation: add
+Package: HepRepCorba
+User: glastrm  Fri Jan  9 13:22:51 2009
+Files:
+  HepRepCorba/HepRepCorbaLib.py  1.2
+  HepRepCorba/SConscript  1.3
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-15-50-10, operation: del
 Package: HepRepCorba
 User: glastrm  Fri Jan  9 08:30:36 2009
