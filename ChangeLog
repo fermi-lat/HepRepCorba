@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Mon Jan 12 07:42:27 PST 2009
+HepRepCorba/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+handle relation root files and reverse release.notes in prep for stag app
+    *
+------------------------------------------------------------
+User: heather  Mon Jan 12 07:42:27 PST 2009
 HepRepCorba/cmt
 
 Modified Files:
