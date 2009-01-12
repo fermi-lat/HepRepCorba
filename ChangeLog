@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Jan 12 07:42:27 PST 2009
+HepRepCorba/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+handle relation root files and reverse release.notes in prep for stag app
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-15-49-00, operation: add
 Package: HepRepCorba
