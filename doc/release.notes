@@ -1,9 +1,10 @@
 /** @file release.notes
  * Package HepRepCorba
  *
- * $Header: /nfs/slac/g/glast/ground/cvs/HepRepCorba/doc/release.notes,v 1.20 2009/01/12 15:42:27 heather Exp $
+ * $Header: /nfs/slac/g/glast/ground/cvs/HepRepCorba/doc/release.notes,v 1.21 2009/09/09 17:51:26 lsrea Exp $
  *   EOH
 
+ HepRepCorba-03-01-02 09-Sep-2009  lsrea fix unix warnings
  HepRepCorba-03-01-01 09-Sep-2009  lsrea fix unix warnings
  * v3r1     12-01-09 HMK Allow input relation files
  * v3r0     16-10-08 HMK Moving to OminOrb 4.1.2
