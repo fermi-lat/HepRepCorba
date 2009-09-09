@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: lsrea  Wed Sep  9 10:50:57 PDT 2009
+HepRepCorba/src
+
+Modified Files:
+	CorbaBuilder.cxx CorbaBuilder.h HepEventServer_impl.cxx 
+	HepEventServer_impl.h HepRep_impl.cxx 
+Log Message:
+Fix unix warnings
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: HepRepCorba-02-00-00, operation: mov
 Package: HepRepCorba
