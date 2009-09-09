@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: lsrea  Wed Sep  9 15:23:07 PDT 2009
+HepRepCorba
+
+Modified Files:
+	SConscript 
+Log Message:
+GoGui_auto-tag
+    *
+------------------------------------------------------------
 TAG
 Tag name: HepRepCorba-03-01-01, operation: add
 Package: HepRepCorba
