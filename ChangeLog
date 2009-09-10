@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: lsrea  Thu Sep 10 14:25:46 PDT 2009
+HepRepCorba/src
+
+Modified Files:
+	CorbaBuilder.h CorbaServer.cxx 
+Log Message:
+Back out some "fixes"
+
+    *
+------------------------------------------------------------
 User: lsrea  Thu Sep 10 14:25:18 PDT 2009
 HepRepCorba/cmt
 
