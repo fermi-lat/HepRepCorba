@@ -1,9 +1,10 @@
 /** @file release.notes
  * Package HepRepCorba
  *
- * $Header: /nfs/slac/g/glast/ground/cvs/HepRepCorba/doc/release.notes,v 1.22 2009/09/09 22:23:07 lsrea Exp $
+ * $Header: /nfs/slac/g/glast/ground/cvs/HepRepCorba/doc/release.notes,v 1.23 2009/09/10 21:29:48 lsrea Exp $
  *   EOH
 
+ HepRepCorba-03-01-04 12-Sep-2009  lsrea more fixes
  HepRepCorba-03-01-03 10-Sep-2009  lsrea back out some fixes
  HepRepCorba-03-01-02 09-Sep-2009  lsrea fix unix warnings
  HepRepCorba-03-01-01 09-Sep-2009  lsrea fix unix warnings
