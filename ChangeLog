@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: heather  Thu Sep 24 10:08:14 PDT 2009
+HepRepCorba/src
+
+Modified Files:
+      Tag: GlastReleasev15r47p12
+	CorbaServer.cxx HepEventServer_impl.h 
+Log Message:
+pick up fixes from head for L1proc v15r47p12gr3
+    *
+------------------------------------------------------------
+User: heather  Thu Sep 24 10:08:14 PDT 2009
 HepRepCorba/doc
 
 Modified Files:
