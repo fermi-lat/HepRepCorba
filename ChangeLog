@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Thu Sep 24 10:08:14 PDT 2009
+HepRepCorba
+
+Modified Files:
+      Tag: GlastReleasev15r47p12
+	SConscript 
+Log Message:
+pick up fixes from head for L1proc v15r47p12gr3
+    *
+------------------------------------------------------------
 TAG
 Tag name: HepRepCorba-03-01-04, operation: add
 Package: HepRepCorba
