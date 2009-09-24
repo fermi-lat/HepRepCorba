@@ -4,7 +4,7 @@
 #include <fstream>
 #include <iostream>
 
-extern int done = 1;
+//extern int done = 1;  Unused??
 
 
 void CorbaServer::run()
