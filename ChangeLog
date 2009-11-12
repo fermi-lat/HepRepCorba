@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Wed Nov 11 17:59:59 PST 2009
+GlastRelease-scons/HepRepCorba
+
+Modified Files:
+	SConscript 
+Added Files:
+	.cvsignore 
+Log Message:
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: HepRepCorba-02-00-00-gr1, operation: add
 Package: HepRepCorba
