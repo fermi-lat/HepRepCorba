@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Thu Jun 10 17:37:41 PDT 2010
+GlastRelease-scons/HepRepCorba
+
+Modified Files:
+	SConscript 
+Log Message:
+updates for SCons build
+    *
+------------------------------------------------------------
 TAG
 Tag name: HepRepCorba-03-01-05, operation: add
 Package: HepRepCorba
