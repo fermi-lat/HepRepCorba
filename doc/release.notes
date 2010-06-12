@@ -1,9 +1,10 @@
 /** @file release.notes
  * Package HepRepCorba
  *
- * $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/HepRepCorba/doc/release.notes,v 1.24 2009/09/12 16:22:34 lsrea Exp $
+ * $Header: /nfs/slac/g/glast/ground/cvs/HepRepCorba/doc/release.notes,v 1.25 2009/11/13 01:38:46 jrb Exp $
  *   EOH
 
+ HepRepCorba-03-01-06 12-Jun-2010    jrb upgrades for SCons builds
  HepRepCorba-03-01-05 12-Nov-2009    jrb Updates for SCons
  HepRepCorba-03-01-04 12-Sep-2009  lsrea more fixes
  HepRepCorba-03-01-03 10-Sep-2009  lsrea back out some fixes
