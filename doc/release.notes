@@ -1,9 +1,10 @@
 /** @file release.notes
  * Package HepRepCorba
  *
- * $Header: /nfs/slac/g/glast/ground/cvs/HepRepCorba/doc/release.notes,v 1.25 2009/11/13 01:38:46 jrb Exp $
+ * $Header: /nfs/slac/g/glast/ground/cvs/HepRepCorba/doc/release.notes,v 1.26 2010/06/12 17:28:30 jrb Exp $
  *   EOH
 
+ HepRepCorba-03-02-00 25-Aug-2010  lsrea Use new HepRepSvc option for starting WIRED
  HepRepCorba-03-01-06 12-Jun-2010    jrb upgrades for SCons builds
  HepRepCorba-03-01-05 12-Nov-2009    jrb Updates for SCons
  HepRepCorba-03-01-04 12-Sep-2009  lsrea more fixes
