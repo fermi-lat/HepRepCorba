@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: heather  Fri Sep 17 20:45:57 PDT 2010
+HepRepCorba/src
+
+Modified Files:
+      Tag: GlastReleasev18r6p1
+	RegisterCorba.cxx 
+Removed Files:
+      Tag: GlastReleasev18r6p1
+	HepRepCorba_dll.cxx HepRepCorba_load.cxx 
+Log Message:
+Gaudi v21r7 updates
+    *
+------------------------------------------------------------
 User: heather  Fri Sep 17 20:45:56 PDT 2010
 HepRepCorba/cmt
 
