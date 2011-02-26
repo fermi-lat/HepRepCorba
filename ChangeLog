@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: lsrea  Sat Feb 26 09:06:47 PST 2011
+HepRepCorba/src
+
+Modified Files:
+	CorbaServer.cxx CorbaServer.h 
+Log Message:
+Fix to handle different versions of javaws, linux and windows... no osx yet!
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: HepRepCorba-03-01-05-gr02, operation: add
 Package: HepRepCorba
