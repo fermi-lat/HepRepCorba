@@ -1,7 +1,7 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/HepRepCorba/SConscript,v 1.13 2010/06/12 17:28:30 jrb Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/HepRepCorba/SConscript,v 1.14 2010/08/25 21:59:42 lsrea Exp $
 # Authors: Riccardo Giannitrapani <riccardo@fisica.uniud.it>
-# Version: HepRepCorba-03-02-00
+# Version: HepRepCorba-03-02-01
 Import('baseEnv')
 Import('listFiles')
 Import('packages')
