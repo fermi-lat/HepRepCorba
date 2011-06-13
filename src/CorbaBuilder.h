@@ -19,6 +19,7 @@
 class CorbaBuilder : public IBuilder{
  public:
   //  CorbaBuilder();
+  virtual ~CorbaBuilder() {}
 
   virtual void addAttDef(std::string name,
                            std::string desc,
