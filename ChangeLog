@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: lsrea  Mon Jun 13 14:48:12 PDT 2011
+HepRepCorba/src
+
+Modified Files:
+      Tag: GlastReleasev17r35p1
+	CorbaBuilder.cxx CorbaBuilder.h CorbaServer.cxx CorbaServer.h 
+	HepEventServer_impl.cxx HepEventServer_impl.h HepRep_impl.cxx 
+Log Message:
+Adding WIRED capability
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: HepRepCorba-03-02-01, operation: add
 Package: HepRepCorba
