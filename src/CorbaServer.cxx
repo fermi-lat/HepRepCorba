@@ -4,7 +4,11 @@
 #include <fstream>
 #include <iostream>
 
-extern int done = 1;
+// no idea what this was for!
+//extern int done = 1;
+namespace {
+    enum JAVARC { NOJDK = -1, SUNJDK, OPENJDK};
+}
 
 
 void CorbaServer::run()
@@ -37,6 +41,7 @@ void CorbaServer::run()
   
   // We get from the HepRepSvc adapter the fredStart option
   std::string fredStart = m_svcAdapter->getStartFred();
+  std::string wiredStart = m_svcAdapter->getStartWired();
   if (fredStart != "")
     std::cout << "CORBA will try to use FRED installed in " << fredStart << std::endl;
   
@@ -45,7 +50,7 @@ void CorbaServer::run()
   // the ior file is than saved in the TMP directory if defined; otherwise the
   // ior file is saved in the actual directory of execution
   std::string iorFileName;  
-  if ((fredStart != "") && (::getenv("TMP") != NULL))
+  if ((fredStart != ""||wiredStart != "") && (::getenv("TMP") != NULL))
   {
     iorFileName = std::string(::getenv("TMP")) + separator;
   }
@@ -78,6 +83,26 @@ void CorbaServer::run()
     root = root + separator + std::string("fred.rb -s ");
     system((root + iorFileName).c_str());
   }
+  else if ((wiredStart != "")&& (::getenv("TMP") != NULL))
+  {
+    std::string wiredCmd = ("javaws ");
+    int javaRC;
+#ifdef WIN32
+    javaRC = SUNJDK;
+#else
+    javaRC = testjavaws();
+#endif
+    if(javaRC==NOJDK) {
+      std::cout << "javaws not found!!!" << std::endl;
+      return;
+    }
+    if(javaRC==SUNJDK) {
+    wiredCmd += wiredStart + " -open " + iorFileName;
+    } else if(javaRC==OPENJDK) {
+    wiredCmd += " -arg -open -arg " + iorFileName + wiredStart;
+    }
+    system((wiredCmd).c_str());
+  }
 
   // We start the CORBA server
   m_orb->run();    
@@ -102,4 +127,26 @@ void CorbaServer::shutDown()
 {
   std::cout << "CORBA Server Destroyed" << std::endl;
   m_orb->shutdown(0);
+}
+int CorbaServer::testjavaws() {
+    const int MAX_BUFFER = 1024;
+    FILE *stream;
+    char buffer[MAX_BUFFER];
+    int result = 0;
+#ifdef WIN32
+    stream = _popen("javaws --help", "r");
+#else
+    stream = popen("javaws --help", "r");
+#endif
+    while (fgets(buffer, MAX_BUFFER, stream) != NULL) {
+        if (strstr(buffer,"-arg") != NULL) result = 1;
+    }
+    int rc;
+#ifdef WIN32
+    rc = _pclose(stream) >> 8;
+#else
+    rc = pclose(stream) >> 8;
+#endif
+   if (rc != 0 && rc != 255) result = -1;
+    return result;
 }

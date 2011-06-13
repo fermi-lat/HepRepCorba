@@ -1,5 +1,5 @@
-/// An HepEvent server; mainly derived from Joseph Perl one .. adapted for GLAST and
-/// GAUDI framework
+// An HepEvent server; mainly derived from Joseph Perl one .. 
+/// adapted for GLAST and GAUDI framework
 /// This is a test server; needs lot of work
 //
 #include "HepRep_impl.hh"
@@ -51,7 +51,7 @@ char* HepEventServer_impl::attach(const char* clientDesc)
     _clientDesc = new char[strlen(clientDesc) + 1];
     strcpy(_clientDesc, clientDesc);
 
-    int descLength = 96;
+    //int descLength = 96;
 
     std::string serverDesc;
     serverDesc = 
@@ -89,7 +89,7 @@ char* HepEventServer_impl::setEvent(const char* command)
   static int temp = 0;
   std::string cmd(command);
     
-  static unsigned int i = 0;
+  //static unsigned int i = 0;
   
   std::string nextEventMsg; 
   
@@ -266,8 +266,9 @@ CORBA::Any* HepEventServer_impl::getEventData (const char* dataFormat)
   std::cout << "I've just given to " << _clientDesc << " an HepRep object" << std::endl;
 
   CORBA::Any* _dupEventData_var = new CORBA::Any();
+  std::string fmt(dataFormat);
 
-  if (dataFormat = "HepRep")
+  if (fmt == "HepRep")
     *_dupEventData_var <<= HepRep::_duplicate (_hepRep_var);
   else
     *_dupEventData_var <<= "error: unsupported data format";
