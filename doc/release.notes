@@ -1,9 +1,10 @@
 /** @file release.notes
  * Package HepRepCorba
  *
- * $Header: /nfs/slac/g/glast/ground/cvs/HepRepCorba/doc/release.notes,v 1.19 2008/10/16 17:49:07 heather Exp $
+ * $Header: /nfs/slac/g/glast/ground/cvs/HepRepCorba/doc/release.notes,v 1.20 2009/01/12 15:42:27 heather Exp $
  *   EOH
 
+ * v3r1p0gr01 13-06-11 LSR Merge in updates for Wired into new L1proc branch
  * v3r1     12-01-09 HMK Allow input relation files
  * v3r0     16-10-08 HMK Moving to OminOrb 4.1.2
  * v2r0     14-07-08 HMK Moving to Omniorb 4.1.0
