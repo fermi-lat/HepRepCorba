@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: lsrea  Fri Jul 15 16:35:50 PDT 2011
+HepRepCorba/src
+
+Modified Files:
+	HepEventServer_impl.cxx 
+Log Message:
+Implement getNumberOfEvents() to support WIRED
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: HepRepCorba-03-02-02, operation: add
 Package: HepRepCorba
