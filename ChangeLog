@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Wed Aug  3 11:09:17 PDT 2011
+HepRepCorba
+
+Modified Files:
+      Tag: GlastReleasev17r35p1
+	SConscript 
+Log Message:
+Merge in SCons  updates for P7
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease_Pass7-17-35-23-gr08, operation: add
 Package: HepRepCorba
