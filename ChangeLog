@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 User: heather  Mon Dec 12 12:51:18 PST 2011
+GlastRelease-scons/HepRepCorba/src
+
+Modified Files:
+	HepEventServerSK.cxx HepRep.hh HepRepSK.cxx RegisterCorba.cxx 
+Removed Files:
+	HepRepCorba_dll.cxx HepRepCorba_load.cxx 
+Log Message:
+merge Gaudi v21r7
+    *
+------------------------------------------------------------
+User: heather  Mon Dec 12 12:51:18 PST 2011
 GlastRelease-scons/HepRepCorba/doc
 
 Modified Files:
