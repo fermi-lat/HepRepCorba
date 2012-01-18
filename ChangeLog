@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Tue Jan 17 17:25:37 PST 2012
+GlastRelease-scons/HepRepCorba
+
+Modified Files:
+	HepRepCorbaLib.py SConscript 
+Log Message:
+Add compile- and link-time stuff for dependency on OmniOrb
+    *
+------------------------------------------------------------
 User: cohen  Tue Jan 17 08:52:05 PST 2012
 GlastRelease-scons/HepRepCorba/src
 
