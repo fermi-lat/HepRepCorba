@@ -1,4 +1,18 @@
 ------------------------------------------------------------
+User: heather  Mon Jan 30 11:15:13 PST 2012
+HepRepCorba/src
+
+Modified Files:
+      Tag: GlastRelease-17-35-24-br01
+	CorbaServer.cxx HepEventServerSK.cxx HepRep.hh HepRepSK.cxx 
+	RegisterCorba.cxx 
+Removed Files:
+      Tag: GlastRelease-17-35-24-br01
+	HepRepCorba_dll.cxx HepRepCorba_load.cxx 
+Log Message:
+Gaudi v21r7
+    *
+------------------------------------------------------------
 User: heather  Mon Jan 30 11:15:12 PST 2012
 HepRepCorba/doc
 
