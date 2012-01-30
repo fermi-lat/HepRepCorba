@@ -15,7 +15,7 @@
 *  @brief Registe
 *  
 *   @author Riccardo Giannitrapani
-*   $Header: /nfs/slac/g/glast/ground/cvs/HepRepCorba/src/RegisterCorba.cxx,v 1.1.1.1 2003/07/07 09:01:01 riccardo Exp $
+*   $Header: /nfs/slac/g/glast/ground/cvs/HepRepCorba/src/RegisterCorba.cxx,v 1.3 2011/12/12 20:51:18 heather Exp $
 */
 class RegisterCorba : public AlgTool, virtual public IRegister{
 public:
@@ -31,8 +31,9 @@ public:
 
 
 // Static factory for instantiation of algtool objects
-static ToolFactory<RegisterCorba> s_factory;
-const IToolFactory& RegisterCorbaFactory = s_factory;
+//static ToolFactory<RegisterCorba> s_factory;
+//const IToolFactory& RegisterCorbaFactory = s_factory;
+DECLARE_TOOL_FACTORY(RegisterCorba);
 
 // Standard Constructor
 RegisterCorba::RegisterCorba(const std::string& type, 
