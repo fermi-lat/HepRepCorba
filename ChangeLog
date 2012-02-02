@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Feb  2 09:54:31 PST 2012
+HepRepCorba/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+add HepRepCorbaSvc
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-17-35-24-gr21, operation: add
 Package: HepRepCorba
