@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Thu Feb  2 09:54:32 PST 2012
+HepRepCorba/src
+
+Added Files:
+	HepRepCorbaSvc.cxx HepRepCorbaSvc.h 
+Log Message:
+add HepRepCorbaSvc
+    *
+------------------------------------------------------------
+User: heather  Thu Feb  2 09:54:32 PST 2012
 HepRepCorba/doc
 
 Modified Files:
