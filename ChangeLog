@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Fri Feb 17 13:22:49 PST 2012
+HepRepCorba
+
+Modified Files:
+      Tag: GlastRelease-17-35-24-br01
+	SConscript 
+Log Message:
+add in HepRepCorbaSvc
+    *
+------------------------------------------------------------
 TAG
 Tag name: HepRepCorba-03-05-00, operation: add
 Package: HepRepCorba
