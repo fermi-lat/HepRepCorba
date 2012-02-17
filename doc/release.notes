@@ -1,9 +1,10 @@
 /** @file release.notes
  * Package HepRepCorba
  *
- * $Header: /nfs/slac/g/glast/ground/cvs/HepRepCorba/doc/release.notes,v 1.20.94.2 2011/08/03 18:09:17 heather Exp $
+ * $Header: /nfs/slac/g/glast/ground/cvs/HepRepCorba/doc/release.notes,v 1.20.94.2.2.1 2012/01/30 19:15:12 heather Exp $
  *   EOH
 
+ * HepRepCorba-03-01-00-gr04 HMK Try to get Event Display to work 
  * HepRepCorba-03-01-00-gr03 HMK Gaudi v21r7
  * HepRepCorba-03-01-00-gr02 HMK Merge in SCons  updates for P7
  * v3r1p0gr01 13-06-11 LSR Merge in updates for Wired into new L1proc branch
