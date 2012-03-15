@@ -1,5 +1,38 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-17-35-24-lp19, operation: add
+Package: HepRepCorba
+User: heather  Thu Mar 15 11:56:15 2012
+Files:
+  HepRepCorba/HepRepCorbaLib.py  1.2
+  HepRepCorba/ChangeLog  1.111
+  HepRepCorba/SConscript  1.4.94.2
+  HepRepCorba/cmt/NMake  1.1.1.1
+  HepRepCorba/cmt/requirements  1.26.94.2
+  HepRepCorba/doc/release.notes  1.20.94.2
+  HepRepCorba/src/HepRep.hh  1.4
+  HepRepCorba/src/CorbaServer.h  1.2.616.1
+  HepRepCorba/src/mainpage.h  1.1.1.1
+  HepRepCorba/src/CorbaBuilder.h  1.2.616.1
+  HepRepCorba/src/HepEventServer_impl.h  1.5.616.1
+  HepRepCorba/src/HepRepCorba_load.cxx  1.2
+  HepRepCorba/src/HepEventServer.hh  1.4
+  HepRepCorba/src/CorbaBuilder.cxx  1.6.616.1
+  HepRepCorba/src/CorbaServer.cxx  1.13.614.1
+  HepRepCorba/src/HepEventServer_impl.cxx  1.16.94.1
+  HepRepCorba/src/HepRepSK.cxx  1.3
+  HepRepCorba/src/HepRep_impl.cxx  1.7.616.1
+  HepRepCorba/src/HepEventServer.idl  1.2
+  HepRepCorba/src/HepRep.idl  1.1.1.1
+  HepRepCorba/src/HepRepCorba_dll.cxx  1.1
+  HepRepCorba/src/HepRepDynSK.cxx  1.3
+  HepRepCorba/src/HepRep_impl.hh  1.4
+  HepRepCorba/src/HepEventServerSK.cxx  1.4
+  HepRepCorba/src/RegisterCorba.cxx  1.2
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-17-35-24-lp18, operation: add
 Package: HepRepCorba
 User: heather  Tue Mar 13 08:50:53 2012
