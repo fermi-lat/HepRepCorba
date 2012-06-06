@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: heather  Wed Jun  6 13:08:42 PDT 2012
+HepRepCorba/src
+
+Modified Files:
+      Tag: GlastRelease-17-35-24-br01
+	HepEventServer_impl.cxx HepRepCorbaSvc.cxx 
+Log Message:
+merge in P8 fixes
+    *
+------------------------------------------------------------
+User: heather  Wed Jun  6 13:08:42 PDT 2012
 HepRepCorba/doc
 
 Modified Files:
