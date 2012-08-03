@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: usher  Thu Aug  2 19:03:07 PDT 2012
+HepRepCorba/src
+
+Modified Files:
+	CorbaServer.cxx 
+Log Message:
+Explicitly set the giop message size when starting ominorb
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-20-04-01, operation: add
 Package: HepRepCorba
