@@ -1,9 +1,10 @@
 /** @file release.notes
  * Package HepRepCorba
  *
- * $Header: /nfs/slac/g/glast/ground/cvs/HepRepCorba/doc/release.notes,v 1.33 2012/02/02 17:54:32 heather Exp $
+ * $Header: /nfs/slac/g/glast/ground/cvs/HepRepCorba/doc/release.notes,v 1.34 2012/05/08 22:13:46 usher Exp $
  *   EOH
 
+ HepRepCorba-03-05-02 09-Aug-2012 TU Add parameters to omni orb initialization to increase message size and reporting
  HepRepCorba-03-05-01  8-May-2012 TU Small udpates to make work with new gaudi
  HepRepCorba-03-05-00 02-Feb-2012    hmk add HepRepCorbaSvc to handle tools
  HepRepCorba-03-04-01 17-Jan-2012    jrb Add SCons-specific compile- and link-time stuff dependency on OmniOrb
