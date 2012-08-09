@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: usher  Thu Aug  9 13:36:03 PDT 2012
+HepRepCorba/src
+
+Modified Files:
+	CorbaServer.cxx 
+Log Message:
+Turn down the message level for omin orb
+    *
+------------------------------------------------------------
 User: usher  Thu Aug  2 19:03:07 PDT 2012
 HepRepCorba/src
 
